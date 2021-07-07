@@ -12,9 +12,9 @@ const AppHeader = (props) => {
           <div className='app-left-nav'>
             <img src={logo} className='app-logo' alt='logo' />
             <div className='app-title-text'>
-              <h1 className='app-title'>TO DO LIST</h1>
+              <h1 className='app-title'>TO DO TASKS</h1>
               <p className='app-intro'>
-                To Do Task list
+                Items list
               </p>
             </div>
           </div>
@@ -39,6 +39,6 @@ const AppHeader = (props) => {
       </div>
     </header>
   )
-}
+};
 
 export default AppHeader
